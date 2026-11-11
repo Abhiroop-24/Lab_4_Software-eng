@@ -2,6 +2,14 @@
 
 A modular terminal checkers game with a board, movement rules, captures, and promotion support.
 
+- **Student:** Abhiroop
+- **USN:** PES2UG24CS024
+- **Course:** UE22CS352AA — Software Engineering
+- **Scenario:** 21 — Checkers
+- **Starter Repository:** [https://github.com/SETAPESU26/21_checkers](https://github.com/SETAPESU26/21_checkers)
+
+---
+
 ## Overview & Lab 4 Deliverables
 
 This repository contains the completed, fully tested, and verified implementation for **Lab 4: Vibe Coding (Scenario 21: Checkers)**.
@@ -64,7 +72,7 @@ python test_checkers.py -v
 - **Forced Captures**: Implemented `get_all_captures()` and mandatory capture enforcement. If any capture is available on the board for the active player, simple moves and non-capturing moves are rejected with clear feedback.
 - **Multi-Capture Turns**: Implemented `get_captures_for_piece()`. When a piece captures an opponent piece and has additional legal captures from the landing square, `active_jump_pos` locks to that piece, requiring the player to complete the jump chain.
 - **King Movement in Both Directions**: Kings (`RK` and `BK`) can move and capture diagonally in all 4 directions (both forward and backward).
-- **Promotion**: Pieces reaching the opponent's back row (row 0 for Red, row 7 for Black) are automatically promoted to Kings (`RK` and `BK`). Under standard rules, promotion on the back row concludes the jump turn.
+- **Promotion**: Pieces reaching the opponent's back row (row 0 for Red, row 7 for Black) are automatically promoted to Kings (`RK` and `BK`). Under standard checkers rules, promotion on the back row concludes the jump turn.
 
 ### Task 4 — Move-Level Feedback
 - Added concise action feedback for every player action:

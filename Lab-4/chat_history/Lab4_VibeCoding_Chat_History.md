@@ -2,6 +2,8 @@
 
 **Scenario 21: Checkers**
 
+- **Student:** Abhiroop
+- **USN:** PES2UG24CS024
 - **Starter Repository:** https://github.com/SETAPESU26/21_checkers
 - **Target Repository:** https://github.com/Abhiroop-24/Lab_4_Software-eng.git
 
